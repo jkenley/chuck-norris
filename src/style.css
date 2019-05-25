@@ -1,0 +1,33 @@
+.header-bg {
+  background: #396afc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2948ff,
+    #396afc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2948ff,
+    #396afc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.title {
+  font-family: "Raleway";
+  font-weight: 600px;
+  font-size: 30px;
+}
+
+.joke-container .joke-box {
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #fafafa;
+  -webkit-box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
+  box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
+}
+
+.joke-txt {
+  font-family: "Raleway";
+  font-size: 17px;
+}

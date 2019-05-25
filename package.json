@@ -1,0 +1,22 @@
+{
+  "name": "chuck-norris",
+  "version": "1.0.0",
+  "description": "Chuck Norris Jokes",
+  "private": true,
+  "author": "Kenley Jean <kenley.jean@esih.edu>",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-html-parser": "^2.0.2",
+    "react-scripts": "1.1.5",
+    "semantic-ui-react": "^0.82.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "license": "MIT"
+}
