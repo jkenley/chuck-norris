@@ -4,7 +4,7 @@
     "description": "Chuck Norris Jokes",
     "author": "Kenley Jean <jkenley@syntaxstudio.io>",
     "dependencies": {
-        "axios": "^0.18.0",
+        "axios": "^0.21.2",
         "react": "^16.5.2",
         "react-dom": "^16.5.2",
         "react-html-parser": "^2.0.2",
