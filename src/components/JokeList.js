@@ -15,7 +15,7 @@ class JokeList extends Component {
 
   componentDidMount = async () => {
     try {
-      const response = await axios.get("//api.icndb.com/jokes/random/100");
+      const response = await axios.get('http://api.icndb.com/jokes/random/100');
 
       this.setState({
         jokes: response.data.value,
